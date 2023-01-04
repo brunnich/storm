@@ -50,7 +50,8 @@
     word-break: break-all;
     margin: 4px 0;
     font-size: 12px;
-    
+    display: flex;
+    flex-direction: row;
     & i {
       vertical-align: bottom;
       margin-right: 4px;
