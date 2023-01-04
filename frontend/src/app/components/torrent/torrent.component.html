@@ -46,6 +46,11 @@
           <i class="far fa-hdd"></i>
           {{torrent.TotalSize | filesize}}
         </span>
+
+        <span pTooltip="Ratio">
+          <i class="far fa-chart-line"></i>
+          {{ torrent.Ratio | number : '1.2-2' }}
+        </span>
       </div>
 
       <div class="t-controls">
